@@ -1,3 +1,37 @@
-﻿body
-{
+﻿* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+   font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top left, #123f9b, #000000)
+    
+}
+main {
+    color: #ffffff;
+    max-width: 600px;
+    margin: 24px auto;
+    padding: 10px;
+    text-align: center;
+}
+section{
+    border-radius: 8px;
+    background: linear-gradient(to bottom right, #000000, #bd9015);
+    box-shadow: 5px 5px 10px #000f;
+    padding-bottom: 20px;
+    margin: 12px;
+}
+label, input{
+    
+    padding: 5px;
+    margin: 5px auto;
+    min-width: 200px;
+    width: 100%;
+    max-width: 500px;
 }
